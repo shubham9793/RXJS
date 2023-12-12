@@ -1,0 +1,27 @@
+* {
+    margin: 25px;
+}
+
+mat-card{
+    background-color: #9aafa8;
+}
+
+.font_{
+    font-size: large;
+}
+
+button{
+    width: 120px;
+    height: 50px;
+    border-radius: 13px;
+    text-align: center;
+    color: mediumslateblue;
+    border-color: floralwhite;
+    &:hover{
+        background: #e3f2fd;
+        color: #477698;
+        box-shadow: 0 0 60px #b3cada inset;
+        text-decoration: none;
+        color: mediumslateblue;
+    }
+}

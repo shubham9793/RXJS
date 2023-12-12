@@ -1,0 +1,16 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mr20{
+ margin-right: 75px;
+}
+
+.ml36{
+  margin-left: 36px;
+}
+
+
+.ml{
+  margin-left: 14px;
+}

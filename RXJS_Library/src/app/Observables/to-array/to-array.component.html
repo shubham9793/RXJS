@@ -1,0 +1,59 @@
+<div class="bootstrap-wrapper">
+  <div class="container">
+    <h2>
+      ToArray => Collects all source emissions and emits them as an array when
+      the source completes.
+    </h2>
+    <div class="row">
+      <div class="col-md-4">
+        <mat-card>
+          <mat-card-header
+            >Collecting emissions and emits value using ToArray and FROM
+            operator
+          </mat-card-header>
+          <hr />
+          <ul>
+            <li>{{ obsMsg[0].name }}</li>
+            <li>{{ obsMsg[0].skill }}</li>
+          </ul>
+        </mat-card>
+      </div>
+
+      <div class="col-md-4">
+        <mat-card>
+          <mat-card-header
+            >Collecting emissions and emits value using ToArray and OF
+            operator</mat-card-header
+          >
+          <hr />
+
+          <li>{{ obsMsg2[0] }}</li>
+          <li>{{ obsMsg2[1] }}</li>
+          <li>{{ obsMsg2[2] }}</li>
+        </mat-card>
+      </div>
+
+      <div class="col-md-4">
+        <mat-card>
+          <mat-card-header
+            >Collecting emissions and emits value using ToArray and INTERVAL
+            operator
+          </mat-card-header>
+          <hr />
+          <ul id="elcontainer"></ul>
+        </mat-card>
+      </div>
+
+      <div class="col-md-4">
+        <mat-card>
+          <mat-card-header
+            >Collecting emissions and emits value using ToArray and INTERVAL
+            operator
+          </mat-card-header>
+          <hr />
+          <ul id="elcontainer4"></ul>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
